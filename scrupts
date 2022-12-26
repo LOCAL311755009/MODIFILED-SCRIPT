@@ -1,0 +1,5 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Script prevented from running"; 
+    Text = "You Clicked the "NO" buttton,this prevent the script from running.";
+    Duration = 5;
+    })
