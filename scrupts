@@ -1,4 +1,5 @@
 game.StarterGui:SetCore("SendNotification", {
 Title = "Script prevented from running";
 Text = You click "NO" and the script has prevented from running.Execute again and click "YES" for the script to run;
+Duration = "999999999";
 })
