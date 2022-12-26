@@ -1,0 +1,20 @@
+wait(1)
+local function callback(text)
+    if text == "YES" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOCAL311755009/MODIFILED-SCRIPT/main/spirnt(MOD)"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOCAL311755009/MODIFILED-SCRIPT/main/Loader%2Ccredits%3A%20noonie%230001"))()
+    elseif text == "NO" then
+    print("The HardCore loader wasnt loader because you click no.execute again and click yes to play hard core")
+    end
+end
+ 
+local bindableFunction= Instance.new("BindableFunction")
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "HARDCORE";
+    Text = "Do you really want to execute this?";
+    Duration = "9999";
+    callbakc = bindableFunction;
+    Button1 = "YES";
+    Button2 = "NO";
+})
