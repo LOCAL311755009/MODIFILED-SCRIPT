@@ -1,5 +1,4 @@
 game.StarterGui:SetCore("SendNotification", {
-Title = "You clicked NO";
-Text = "You click NO and the script has prevented from running.Execute again and click YES for the script to run";
-Duration = "999999999";
+Title = "ACTIVATED";
+Text = "The script has been activated";
 })
